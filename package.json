@@ -1,13 +1,13 @@
 {
   "name": "pertemuan-7",
   "version": "1.0.0",
-  "description": "",
+  "description": "pertemuan 7 - MiddleWare",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Rangga",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
