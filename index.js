@@ -158,7 +158,7 @@ app.use((req, res) =>{
 // global error handler
 app.use((err, req, res, next) =>{
     console.error(err)
-    if(res.headerSent){
+    if(res.headersSent){
         return next(err)
     }
     return errorResponse(res, 'Terjadi kesalahan pada server', 500)
