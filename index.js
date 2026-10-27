@@ -31,3 +31,12 @@ app.use((req, res, next) =>{
             duration: `${duration} ms`
         })
     })
+    next()
+})
+
+// Response Envelope
+function successResponse(res, message, data, status = 200){
+    return res.status(status).json({
+        success: true, message, data, error: null,
+    })
+}
